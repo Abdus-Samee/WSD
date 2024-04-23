@@ -65,8 +65,15 @@ public class MovieListingApp {
             System.out.println("1. Register");
             System.out.println("2. Exit");
             System.out.print("Enter your choice: ");
-            int choice = scanner.nextInt();
-            scanner.nextLine();
+            int choice = 0;
+
+            try{
+                choice = scanner.nextInt();
+                scanner.nextLine();
+            }catch (Exception e){
+                choice = -1;
+                scanner.nextLine();
+            }
 
             switch (choice) {
                 case 1:
@@ -87,13 +94,16 @@ public class MovieListingApp {
         String email = scanner.nextLine();
 
         boolean isRegistered = registrationService.registerUser(email);
-        if (isRegistered) {
-            System.out.println("Registration successful!");
-            User user = registrationService.getUser(email);
-            handleUserMenu(user);
-        } else {
+        while(!isRegistered){
             System.out.println("Registration failed. Please try again with a valid email address.");
+            System.out.print("Enter your email address: ");
+            email = scanner.nextLine();
+            isRegistered = registrationService.registerUser(email);
         }
+
+        System.out.println("Registration successful!");
+        User user = registrationService.getUser(email);
+        handleUserMenu(user);
     }
 
     private static void handleUserMenu(User user) {
