@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Movie 1",
+    "actors": ["Actor 1", "Actor 2"],
+    "genre": "Action",
+    "releaseDate": "2020-01-01",
+    "budget": 100000000
+  },
+  {
+    "title": "Movie 2",
+    "actors": ["Actor 3", "Actor 4"],
+    "genre": "Comedy",
+    "releaseDate": "2021-06-15",
+    "budget": 50000000
+  },
+  {
+    "title": "Movie 3",
+    "actors": ["Actor 5", "Actor 6"],
+    "genre": "Drama",
+    "releaseDate": "2022-10-20",
+    "budget": 75000000
+  }
+]
