@@ -6,6 +6,11 @@
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MovieListingApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MovieListingApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/model/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/MovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/MovieListingApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/MovieListingApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/model/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/model/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/model/User.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +49,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="JUnit.RegistrationServiceTest">
+  <component name="RunManager" selected="JUnit.EmailValidatorTest">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.MovieListingApp" />
       <module name="WSD" />
@@ -52,26 +57,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmailValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WSD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.service.*" />
+          <option name="PATTERN" value="com.example.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="17.0.5" />
-      <option name="PACKAGE_NAME" value="com.example.service" />
-      <option name="MAIN_CLASS_NAME" value="com.example.service.RegistrationServiceTest" />
-      <option name="METHOD_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.example.util" />
+      <option name="MAIN_CLASS_NAME" value="com.example.util.EmailValidatorTest" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationServiceTest.testGetRegisteredUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WSD" />
       <extension name="coverage">
         <pattern>
@@ -80,14 +81,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.service" />
-      <option name="MAIN_CLASS_NAME" value="com.example.service.RegistrationServiceTest" />
-      <option name="METHOD_NAME" value="testGetRegisteredUser" />
+      <option name="MAIN_CLASS_NAME" value="com.example.service.MovieServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieServiceTest.testAddMovieToFavorites" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WSD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.service.MovieServiceTest" />
+      <option name="METHOD_NAME" value="testAddMovieToFavorites" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationServiceTest.testRegisterNullEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieServiceTest.testSearchMovies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WSD" />
       <extension name="coverage">
         <pattern>
@@ -96,8 +112,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.service" />
-      <option name="MAIN_CLASS_NAME" value="com.example.service.RegistrationServiceTest" />
-      <option name="METHOD_NAME" value="testRegisterNullEmail" />
+      <option name="MAIN_CLASS_NAME" value="com.example.service.MovieServiceTest" />
+      <option name="METHOD_NAME" value="testSearchMovies" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieServiceTest.testViewMovieDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WSD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.service.MovieServiceTest" />
+      <option name="METHOD_NAME" value="testViewMovieDetails" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,15 +137,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Unnamed" />
-      <item itemvalue="JUnit.RegistrationServiceTest" />
-      <item itemvalue="JUnit.RegistrationServiceTest.testGetRegisteredUser" />
-      <item itemvalue="JUnit.RegistrationServiceTest.testRegisterNullEmail" />
+      <item itemvalue="JUnit.MovieServiceTest" />
+      <item itemvalue="JUnit.MovieServiceTest.testSearchMovies" />
+      <item itemvalue="JUnit.MovieServiceTest.testViewMovieDetails" />
+      <item itemvalue="JUnit.MovieServiceTest.testAddMovieToFavorites" />
+      <item itemvalue="JUnit.EmailValidatorTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RegistrationServiceTest" />
-        <item itemvalue="JUnit.RegistrationServiceTest.testRegisterNullEmail" />
-        <item itemvalue="JUnit.RegistrationServiceTest.testGetRegisteredUser" />
+        <item itemvalue="JUnit.EmailValidatorTest" />
+        <item itemvalue="JUnit.MovieServiceTest" />
+        <item itemvalue="JUnit.MovieServiceTest.testAddMovieToFavorites" />
+        <item itemvalue="JUnit.MovieServiceTest.testViewMovieDetails" />
+        <item itemvalue="JUnit.MovieServiceTest.testSearchMovies" />
       </list>
     </recent_temporary>
   </component>
@@ -151,6 +187,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1713881050481" />
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1713891480383">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1713891480383" />
     <state x="498" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1713880152333">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -159,25 +199,33 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="620" y="304" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1713881004657" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1713883339144">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1713891595224">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1713883339144" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1713883339144">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1713891595224" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1713891595224">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1713883339144" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1713883339144">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1713891595224" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1713891595224">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1713883339144" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1713883339144">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1713891595224" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1713891595224">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1713883339144" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1713891595224" />
+    <state x="299" y="70" key="Maven.ArtifactSearchDialog" timestamp="1713887381511">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="70" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1713887381511" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1713881298590">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1713881298590" />
+    <state x="477" y="46" key="refactoring.ChangeSignatureDialog" timestamp="1713888849200">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="477" y="46" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1713888849200" />
   </component>
 </project>

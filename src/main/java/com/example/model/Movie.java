@@ -45,7 +45,7 @@ public class Movie {
         sb.append("Cast: ").append(cast).append("\n");
         sb.append("Category: ").append(category).append("\n");
         sb.append("Release Date: ").append(releaseDate).append("\n");
-        sb.append("Budget: ").append(budget).append("\n");
+        sb.append("Budget: ").append(budget);
         return sb.toString();
     }
 }

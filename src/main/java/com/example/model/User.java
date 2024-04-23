@@ -24,7 +24,7 @@ public class User {
         favourites.add(movie);
     }
 
-    public void removeFromFavorites(Movie movie) {
+    public void removeFromFavourites(Movie movie) {
         favourites.remove(movie);
     }
 
@@ -39,10 +39,10 @@ public class User {
                 sb.append("Cast: ").append(movie.getCast()).append("\n");
                 sb.append("Category: ").append(movie.getCategory()).append("\n");
                 sb.append("Release Date: ").append(movie.getReleaseDate()).append("\n");
-                sb.append("Budget: ").append(movie.getBudget()).append("\n\n");
+                sb.append("Budget: ").append(movie.getBudget());
             }
         } else {
-            sb.append("No favorite movies found.\n");
+            sb.append("No favorite movies found.");
         }
         return sb.toString();
     }
