@@ -1,23 +1,100 @@
 [
   {
-    "title": "Movie 1",
-    "actors": ["Actor 1", "Actor 2"],
-    "genre": "Action",
-    "releaseDate": "2020-01-01",
+    "title": "The Shawshank Redemption",
+    "actors": ["Tim Robbins", "Morgan Freeman", "Bob Gunton"],
+    "genre": "Thriller",
+    "releaseDate": "1994-01-01",
     "budget": 100000000
   },
   {
-    "title": "Movie 2",
-    "actors": ["Actor 3", "Actor 4"],
-    "genre": "Comedy",
-    "releaseDate": "2021-06-15",
+    "title": "The Godfather",
+    "actors": ["Marlon Brando", "Al Pacino", "James Caan"],
+    "genre": "Drama",
+    "releaseDate": "1972-06-15",
     "budget": 50000000
   },
   {
-    "title": "Movie 3",
-    "actors": ["Actor 5", "Actor 6"],
+    "title": "The Dark Knight",
+    "actors": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+    "genre": "Action",
+    "releaseDate": "2008-08-17",
+    "budget": 185000000
+  },
+  {
+    "title": "Pulp Fiction",
+    "actors": ["John Travolta", "Uma Thurman", "Samuel L. Jackson"],
+    "genre": "Crime",
+    "releaseDate": "1994-10-14",
+    "budget": 8000000
+  },
+  {
+    "title": "Schindler's List",
+    "actors": ["Liam Neeson", "Ben Kingsley", "Ralph Fiennes"],
+    "genre": "Biography",
+    "releaseDate": "1993-12-15",
+    "budget": 22000000
+  },
+  {
+    "title": "The Lord of the Rings: The Return of the King",
+    "actors": ["Elijah Wood", "Viggo Mortensen", "Ian McKellen"],
+    "genre": "Adventure",
+    "releaseDate": "2003-12-17",
+    "budget": 94000000
+  },
+  {
+    "title": "Forrest Gump",
+    "actors": ["Tom Hanks", "Robin Wright", "Gary Sinise"],
     "genre": "Drama",
-    "releaseDate": "2022-10-20",
-    "budget": 75000000
+    "releaseDate": "1994-07-06",
+    "budget": 55000000
+  },
+  {
+    "title": "Inception",
+    "actors": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page"],
+    "genre": "Sci-Fi",
+    "releaseDate": "2010-07-16",
+    "budget": 160000000
+  },
+  {
+    "title": "Fight Club",
+    "actors": ["Brad Pitt", "Edward Norton", "Helena Bonham Carter"],
+    "genre": "Drama",
+    "releaseDate": "1999-10-15",
+    "budget": 63000000
+  },
+  {
+    "title": "Titanic",
+    "actors": ["Leonardo DiCaprio", "Kate Winslet", "Billy Zane"],
+    "genre": "Drama",
+    "releaseDate": "1997-02-15",
+    "budget": 1500000
+  },
+  {
+    "title": "The Green Mile",
+    "actors": ["Tom Hanks", "Michael Clarke Duncan", "David Morse"],
+    "genre": "Fantasy",
+    "releaseDate": "1999-12-10",
+    "budget": 60000000
+  },
+  {
+    "title": "The Prestige",
+    "actors": ["Hugh Jackman", "Christian Bale", "Michael Caine"],
+    "genre": "Drama",
+    "releaseDate": "2006-10-20",
+    "budget": 40000000
+  },
+  {
+    "title": "Mystic River",
+    "actors": ["Sean Penn", "Tim Robbins", "Kevin Bacon"],
+    "genre": "Mystery",
+    "releaseDate": "2003-10-08",
+    "budget": 25000000
+  },
+  {
+    "title": "Million Dollar Baby",
+    "actors": ["Hilary Swank", "Clint Eastwood", "Morgan Freeman"],
+    "genre": "Drama",
+    "releaseDate": "2004-12-15",
+    "budget": 30000000
   }
 ]
